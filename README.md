@@ -3,6 +3,14 @@
 Local staging repository for preserving KIT crawler selection behavior while
 upstream OEDS remains the base project.
 
+This repository is part of the modular OEDS stack. The shared crawler and
+database core remains in
+[open-energy-data-server](https://github.com/open-energy-data-server/open-energy-data-server),
+while deployment, scheduling/UI, and post-processing live in
+[oeds-deployment](https://github.com/johannesschuhmacher/oeds-deployment),
+[oeds-scheduler-ui](https://github.com/johannesschuhmacher/oeds-scheduler-ui),
+and [oeds-post-scripts](https://github.com/johannesschuhmacher/oeds-post-scripts).
+
 ## Responsibility
 
 This module provides the crawler registry layer for KIT-enhanced crawlers. It
